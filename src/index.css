@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: white;
+
+}
+
+.video{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  z-index: -1;
+}
+
+
+
+.bg-overley{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.o{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: aliceblue;
+  align-items: center;
+  
+}
+
+h1{
+  font-family: 'Righteous', cursive;
+  font-size: 2.2em;
+
+}
+.order{
+  background-color: rgba(0, 0, 0, 0.238);
+  color: rgba(251, 251, 251, 0.774);
+  border: none;
+  width: 200px;
+  height: 60px;
+  border-radius: 8px;
+  border: 1px solid #fefefe85;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 8px;
+  font-weight: 300;
+  font-family: 'Orbitron', sans-serif;  border-radius: 8px;
+
+}
+
+.gallery{
+  font-family: 'Righteous', cursive;
+  font-size: 2.2em;
+  margin: 10px;
+}
+
+#sidebar{
+  background-color: rgba(0, 0, 0, 0.785);
+  color: rgb(50, 211, 38);
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+a{
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+
+
+.logo{
+  font-size: 2.2rem;
+}
+.menuitem{
+  font-size: 16px;
+  border-bottom: 1px solid rgba(250, 250, 250, 0.243);
+  text-align: left;
+  padding-left: 10px;
+  cursor: pointer;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+}
+
+
+.divi{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+.content{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 90%;
+  min-height: 95vh;
+  background-color: rgba(255, 255, 255, 0.043);
+  border-radius: 8px;
+  border: 1px solid #fefefe85;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 300% auto; 
+  background-image: url('../public//pattern-circles.svg');
+  
+
+}
+
+.ordersection {
+  background-color: rgba(218, 218, 218, 0.068);
+  border-radius: 6px;
+  padding: 15px;
+  font-family: 'Rubik', sans-serif;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+
+.text{
+  font-weight: 500;
+  font-family: 'Orbitron', sans-serif;  border-radius: 8px;
+  margin-top: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+}
+
+.firsword{
+  color:rgba(208, 220, 35, 0.841);
+
+}
+.call{
+  border: 1px solid #fefefeb4;
+  border-radius: 8px;
+  width: 80%;
+  height: 2.2rem;
+  background-color:rgba(0, 0, 0, 0.841);
+  font-size: 1em;
+  color: rgba(208, 220, 35, 0.841);
+  margin: 10px;
+  letter-spacing: 2px;
+  font-family: 'Orbitron', sans-serif;  border-radius: 8px;
+
+}
+
+.calltext{
+  font-family: 'Rubik', sans-serif;
+
+}
+
+
+
+
+.zina{
+  background-color: rgba(0, 0, 0, 0.891);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+.photos{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3px;
+  width: 80%;
+}
+
+.item{
+  width: px;
+}
+
+.galleryiimg{
+  width: 99%;
+  height: 99%;
+  border-radius: 10px;
+  border: 1px solid rgba(157, 156, 156, 0.274);
+}
+
+.zinikela{
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+.ziniko{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 99%;
+}
+
+
+.p{
+  margin-top: 50px;
+  height: 100px;
+  letter-spacing: 1px;
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: 1em;
+
+}
+
+.bottomtext{
+  background-color: rgb(0, 0, 0);
+  border-radius: 8px;
+  padding-left: 0.4em;
+}
+
+.logonottom{
+  font-family: 'Righteous', cursive;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 1.4em;
+  color:rgba(208, 220, 35, 0.841);
+  padding-left: 0.3em;
+}
+
+
+.wow{
+  background-color: rgba(208, 220, 35, 0.841);
+  color: black
+}
+
+.info{
+  background-color: rgba(0, 0, 0, 0.928);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.inform{
+  margin: 1.2em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.827);
+  display: flex;
+  line-height: 1.4em;
+  font-family: 'Rubik', sans-serif;
+  border-radius: 8px;
+}
+
+
+
+.bvideo{
+  width: 90%;
+  height: 100%;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20%;
+}
+
+
+.bookstudio{
+  background: radial-gradient(circle at -10% 51.2%, rgb(209, 220, 37) 0%, rgb(209, 220, 37) 0 15.9%, rgb(0, 0, 0) 15.9%, rgb(58, 65, 58) 24.4%, rgb(19, 30, 37) 24.5%, rgb(209, 220, 37)  66%);  width: 50%;
+  border: none;
+  height: 100px;
+  border-radius: 8px;
+  font-size: 1.3em;
+  font-weight: 300;
+  font-family: 'Orbitron', sans-serif;  border-radius: 8px;
+  
+}
+.bookequipment{
+  background: radial-gradient(circle at 110% 51.2%, rgb(243, 243, 243) 0%, rgba(231, 231, 240, 0.626) 15.9%, rgb(172, 55, 157) 15.9%, rgb(160, 196, 163) 24.4%, rgb(19, 30, 37) 24.5%, rgba(92, 193, 15, 0.984) 66%);
+  width: 50%;
+  border: none;
+  font-size: 1.3em;
+  font-family: 'Orbitron', sans-serif;  border-radius: 8px;
+
+}
+
+.equipmenttext{
+  margin-right: 1.3em;
+  
+}
+
+.back{
+  width: 32px;
+  height: 32px;
+}
+
+
+.load{
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.pink-button {
+  --button-bg-color:rgba(208, 220, 35, 0.841);
+  --color: black
+
+}
+
+
+.blackbutton{
+  --button-bg-color: rgba(0, 0, 0, 0.926);
+  --color: white
+}
+
+
+.rentstudio{
+  background-color: var(--button-bg-color);
+  background-repeat: no-repeat;
+  background-size: 50% auto; 
+  background-image: url('../public//pattern-circles.svg');
+  
+  color:  var(--color);
+  width: 15em;
+  height: 60px;
+  border: 1px solid rgba(209, 220, 35);
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 3px;
+  border-radius: 50px;
+  font-weight: 300;
+  font-family: 'Orbitron', sans-serif;  border-radius: 8px;
+}
+
+
+.instructortext{
+  margin-top: 1em;
+}
+
+
+
+.social{
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.socialimg{
+  width: 32px;
+  height: 32px;
+  margin-right: 1em;
+}
