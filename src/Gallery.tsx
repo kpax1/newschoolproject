@@ -58,10 +58,11 @@ export default function Gallery({ galleryRef, imgArray }: any) {
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
       >
-        ALL RIGHT RESERVED
+        
         <p className="bottomtext">
           ©2023
           <span className="logonottom">𝔫𝔢𝔴𝔰𝔠𝔥𝔬𝔬𝔩</span>
+          
         </p>
         <motion.div
           initial={{ x: -100, opacity: 0 }}

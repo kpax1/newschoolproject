@@ -132,9 +132,6 @@ a{
   background-color: rgba(218, 218, 218, 0.068);
   border-radius: 6px;
   padding: 15px;
-  font-family: 'Rubik', sans-serif;
-  background-repeat: no-repeat;
-  background-position: top left;
 }
 
 
@@ -222,14 +219,18 @@ a{
   height: 100px;
   letter-spacing: 1px;
   font-family: 'Rubik', sans-serif;
-  margin-bottom: 1em;
-
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.718);
+  width: 100%;
+  border-radius: 8px;
+  padding-bottom: 7.5em;
 }
 
 .bottomtext{
-  background-color: rgb(0, 0, 0);
-  border-radius: 8px;
   padding-left: 0.4em;
+  padding-top: 1em;
 }
 
 .logonottom{
@@ -256,13 +257,13 @@ a{
 
 
 .inform{
-  margin: 1.2em;
-  text-align: left;
+  padding: 1.2em;
   color: rgba(255, 255, 255, 0.827);
-  display: flex;
   line-height: 1.4em;
-  font-family: 'Rubik', sans-serif;
   border-radius: 8px;
+  font-family: 'Orbitron', sans-serif;  border-radius: 8px;
+  background-image: url('../public//pattern-circles.svg');
+
 }
 
 
@@ -368,3 +369,15 @@ a{
   height: 32px;
   margin-right: 1em;
 }
+
+.aboutus{
+  font-family: 'Orbitron', sans-serif;  border-radius: 8px;
+  letter-spacing: 2px;
+  line-height: 1.5em;
+  min-height: 100vh;
+  font-weight: 400;
+}
+.aboutus p {
+  margin-top: 0.5em;
+}
+
